@@ -1,7 +1,7 @@
 # Review Application
 
 This is a review application where users can add and view reviews for the popular TV series The Bigbang Theory. It allows users to share their opinions and experiences for choosen seasons and episodes , and see others review ,it is my first self made full stack application, feel free to contribute or make it better.
-
+(backend is hosted in BIGBANG-BACKEND repo and  frontend is hosted in BIGBANG-FRONT Repo
 ## Features
 
 - Add new reviews with ratings and comments
