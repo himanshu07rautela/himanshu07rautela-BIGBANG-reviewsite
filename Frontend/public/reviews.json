@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Amazing Season Finale!",
+    "rating": 9,
+    "content": "What a way to end the season! I'm already excited for the next one.",
+    "season": 1,
+    "episode": 10,
+    "name": "John Doe",
+    "photo": "https://example.com/john-doe.jpg" 
+  },
+  {
+    "id": 2,
+    "title": "Slow Start",
+    "rating": 7,
+    "content": "The first few episodes were a bit slow, but it picked up later.",
+    "season": 1,
+    "episode": 2,
+    "name": "Jane Smith",
+    "photo": "https://example.com/jane-smith.jpg" 
+  },
+  {
+    "id": 3,
+    "title": "Best Episode Ever!",
+    "rating": 10,
+    "content": "This episode was absolutely incredible! The plot twists were amazing.",
+    "season": 2,
+    "episode": 5,
+    "name": "Peter Jones",
+    "photo": "https://example.com/peter-jones.jpg" 
+  }
+]

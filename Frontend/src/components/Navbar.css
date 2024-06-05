@@ -1,0 +1,59 @@
+/* Custom CSS for smooth underline */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Additional Styles */
+.nav-item {
+  font-size: 1.5rem;
+  color: #333; /* Dark text color */
+}
+
+/* Button Styles */
+.text-3xl {
+  font-size: 2rem;
+  color: #333; /* Dark text color */
+  transition: color 0.3s ease;
+}
+
+.text-3xl:hover {
+  color: #4299e1; /* Blue color */
+}
+
+/* Fixed Menu Styles */
+.fixed-menu {
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Menu Items Styles */
+.menu-item {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #333; /* Dark text color */
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #4299e1; /* Blue color */
+}
